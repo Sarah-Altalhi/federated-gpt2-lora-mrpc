@@ -1,5 +1,13 @@
 # Federated Fine-Tuning of GPT-2 for Paraphrase Detection (LoRA + FedAvg) — MRPC
 
+
+![Python](https://img.shields.io/badge/Python-3.9-blue?style=flat-square&logo=python)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-yellow?style=flat-square&logo=huggingface)
+![NLP](https://img.shields.io/badge/NLP-Text%20Classification-green?style=flat-square)
+![Federated Learning](https://img.shields.io/badge/Federated-Learning-red?style=flat-square)
+
+
 This project implements **federated fine-tuning** of GPT-2 on the GLUE **MRPC** dataset, combining:
 - **LoRA** (Low-Rank Adaptation) for parameter-efficient fine-tuning, and
 - **FedAvg** (Federated Averaging) to aggregate client-side adapters while preserving data privacy.
